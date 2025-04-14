@@ -1,0 +1,7 @@
+	1. deploy a sample application and verify that the pods are running correctly
+	2. monitor pod resource usage using the kubectl top command to assess cpu and memory consumption
+	3. deploy a Vertical Pod Autoscaler (VPA) to observe how it adjusts cpu and memory resource recommendations based on the application’s current usage
+	4. introduce load to the application and monitor how VPA dynamically updates its recommendations in response to increased demand.
+	5. interpret VPA recommendations by understanding key parameters like lowerBound, upperBound, and uncappedTarget for resource management
+
+
